@@ -10,6 +10,15 @@ The following graphs can be drawn:
 - Complete split graphs.
 
 ### Usage
-
+---
 #### Complete graphs
 
+A complete graph embedded into a circle for any number of vertices:
+1. Draw a circle using one of the three options of ipe.
+2. Select the circle
+3. Run "ipelets -> Dense Graphs -> Complete graph"
+4. Write the number of vertices and accept.
+
+##### Example:
+
+![Alt text](./complete_graph.svg)
