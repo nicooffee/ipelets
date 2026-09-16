@@ -21,4 +21,4 @@ A complete graph embedded into a circle for any number of vertices:
 
 ##### Example:
 
-![Alt text](./complete_graph.svg)
+<img src="./svg/complete_graph.svg" style="width: 100%; height: auto;">
