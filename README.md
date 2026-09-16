@@ -53,3 +53,9 @@ To draw a complete split graph with a clique $A$ with $n$ vertices and independe
 ##### Example:
 An example with $n = 3 $ and $m = 4$:
 <img src="./svg/complete_split_graph.svg" style="width: 100%; height: auto;">
+
+## Intersection Graphs
+Writing...
+
+## Unwrap Circles
+Writing...
