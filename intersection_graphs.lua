@@ -261,7 +261,7 @@ end
 
 methods = {
   { label = "Disks", run = diskIntersectionGraph },
-  { label = "Disks (Open)", run = diskIntersectionGraph },
+  { label = "Disks (Open)", run = openDiskIntersectionGraph },
   { label = "Rectangles", run = rectangleIntersectionGraph },
   { label = "Segments", run = segmentIntersectionGraph },
   -- add more here, e.g.:

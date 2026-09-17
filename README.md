@@ -55,7 +55,15 @@ An example with $n = 3 $ and $m = 4$:
 <img src="./svg/complete_split_graph.svg" style="width: 100%; height: auto;">
 
 ## Intersection Graphs
-Writing...
+An _(geometric) intersection graph_ is a graph that describes the intersection of a set of geometric objects. That is, two objects intersect if and only if their corresponding vertices share an edge.
+
+To draw an \[object\] (objects: disk, open disk, rectangle, segment), do as follows:
+1. Draw some objects (of only one class)
+2. Select all of them
+3. Run "ipelets -> Dense Graphs -> \[object\]"
+
+### Examples:
+<img src="./svg/intersection_graph.svg" style="width: 100%; height: auto;">
 
 ## Unwrap Circles
 Writing...
