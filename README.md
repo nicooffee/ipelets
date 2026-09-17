@@ -55,6 +55,8 @@ An example with $n = 3 $ and $m = 4$:
 <img src="./svg/complete_split_graph.svg" style="width: 100%; height: auto;">
 
 ## Intersection Graphs
+Functions to draw intersection graphs. The ipelet is `intersection_graphs.lua`.
+
 An _(geometric) intersection graph_ is a graph that describes the intersection of a set of geometric objects. That is, two objects intersect if and only if their corresponding vertices share an edge.
 
 To draw an \[object\] (objects: disk, open disk, rectangle, segment), do as follows:
@@ -66,4 +68,22 @@ To draw an \[object\] (objects: disk, open disk, rectangle, segment), do as foll
 <img src="./svg/intersection_graph.svg" style="width: 100%; height: auto;">
 
 ## Unwrap Circles
-Writing...
+A function to unwrap a circle into a segment, preserving (scaled) length.
+The circle may have some points in its boundary. When unwrapping, the position of points is also translated correspondingly.
+The ipelet is `unwrap_circle.lua`.
+
+### Usage 
+To unwrap a circle, we do it deciding two things: the cut point and the unwrapping direction: clockwise or counterclockwise:
+1. Draw a circle $C$ with some points $p_1,\ldots,p_n$ intersecting its boundary.
+2. Draw the cut point $x$ where desired.
+3. Select **in this order**:
+    1. The circle $C$,
+    2. the points $p_1,\ldots,p_n$ and,
+    3. the cut point $x$ (the function cuts the circle at the last point selected!).
+4. Run "ipelets -> Unwrap Circle -> \[object\]"
+5. Enter scale (default is one) and choose direction.
+
+### Example
+An example with six points $p_1,\ldots,p_n$ on a circle $C$. The grey arrow indicates clockwise direction. The unwrapped line above is clockwise; the one below is counterclockwise.
+Both lines have 1 of scale factor.
+<img src="./svg/unwrap_circle.svg" style="width: 100%; height: auto;">
