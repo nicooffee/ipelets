@@ -80,7 +80,7 @@ To unwrap a circle, we do it deciding two things: the cut point and the unwrappi
     1. The circle $C$,
     2. the points $p_1,\ldots,p_n$ and,
     3. the cut point $x$ (the function cuts the circle at the last point selected!).
-4. Run "ipelets -> Unwrap Circle -> \[object\]"
+4. Run "ipelets -> Unwrap Circle"
 5. Enter scale (default is one) and choose direction.
 
 ### Example
