@@ -84,6 +84,6 @@ To unwrap a circle, we do it deciding two things: the cut point and the unwrappi
 5. Enter scale (default is one) and choose direction.
 
 ### Example
-An example with six points $p_1,\ldots,p_n$ on a circle $C$. The grey arrow indicates clockwise direction. The unwrapped line above is clockwise; the one below is counterclockwise.
+An example with six points $p_1,\ldots,p_6$ on a circle $C$. The grey arrow indicates clockwise direction. The unwrapped line above is clockwise; the one below is counterclockwise.
 Both lines have 1 of scale factor.
 <img src="./svg/unwrap_circle.svg" style="width: 100%; height: auto;">
